@@ -14,13 +14,13 @@ describe("Word Frequency", function() {
         expect(result).toEqual('it 1')
 
     })
-/*
+
     it('returns string given two different words',function()
     {
         var result=main('it was')
         expect(result).toEqual('it 1\r\nwas 1')
     })
-
+/*
     it('returns string given duplicated different words',function()
     {
         var result=main('it it was')
