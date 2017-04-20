@@ -7,14 +7,14 @@ describe("Word Frequency", function() {
         var expect_string=''
         expect(expect_string).toEqual(result)
     })
-/*
+
    it('returns string given one word',function()
     {
         var result=main('it')
         expect(result).toEqual('it 1')
 
     })
-
+/*
     it('returns string given two different words',function()
     {
         var result=main('it was')
