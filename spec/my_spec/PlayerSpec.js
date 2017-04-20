@@ -32,12 +32,13 @@ describe("Word Frequency", function() {
         var result=main('it was was')
         expect(result).toEqual('was 2\r\nit 1')
     })
-/*
+
     it('returns string given words splited by multiple spaces',function()
     {
         var result=main('it   was')
         expect(result).toEqual('it 1\r\nwas 1')
     })
+	/*
 	it('returns string given full words ',function()
     {
         var result=main('it was the age of wisdom it was the age of foolishness it is')
