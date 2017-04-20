@@ -38,13 +38,13 @@ describe("Word Frequency", function() {
         var result=main('it   was')
         expect(result).toEqual('it 1\r\nwas 1')
     })
-	/*
+	
 	it('returns string given full words ',function()
     {
         var result=main('it was the age of wisdom it was the age of foolishness it is')
         expect(result).toEqual('it 3\r\nwas 2\r\nthe 2\r\nage 2\r\nof 2\r\nwisdom 1\r\nfoolishness 1\r\nis 1')
     })
-	*/
+	
 
 
 })
